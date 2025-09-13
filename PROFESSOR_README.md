@@ -4,7 +4,7 @@
 
 ```bash
 git clone <SEU_REPOSITORIO_GITHUB>
-cd decision-ai
+cd Datathon_ML-FIAP-Grupo7-Decision
 python run_demo.py
 ```
 

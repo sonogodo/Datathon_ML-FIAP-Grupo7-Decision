@@ -57,7 +57,7 @@ python test_api.py
 ### 📊 Estrutura do Projeto
 
 ```
-decision-ai/
+Datathon_ML-FIAP-Grupo7-Decision/
 ├── src/                    # Código fonte modularizado
 │   ├── data/              # Carregamento de dados
 │   ├── features/          # Feature engineering

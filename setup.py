@@ -10,10 +10,10 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="decision-ai",
+    name="Datathon_ML-FIAP-Grupo7-Decision",
     version="1.0.0",
-    author="Decision AI Team",
-    description="Sistema de matching candidato-vaga com IA para Decision HR",
+    author="FIAP Grupo 7",
+    description="Datathon FIAP - Sistema de matching candidato-vaga com IA para Decision HR",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),

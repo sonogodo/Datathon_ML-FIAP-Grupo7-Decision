@@ -9,7 +9,7 @@ Este projeto está pronto para ser clonado e executado em qualquer máquina com 
 ```bash
 # 1. Clonar repositório
 git clone <URL_DO_SEU_REPOSITORIO>
-cd decision-ai
+cd Datathon_ML-FIAP-Grupo7-Decision
 
 # 2. Executar demonstração completa
 python run_demo.py
@@ -20,7 +20,7 @@ python run_demo.py
 ```bash
 # 1. Clonar repositório
 git clone <URL_DO_SEU_REPOSITORIO>
-cd decision-ai
+cd Datathon_ML-FIAP-Grupo7-Decision
 
 # 2. Verificar ambiente
 python check_environment.py
@@ -103,7 +103,7 @@ docker run -p 8000:8000 decision-ai
 ### 📁 Estrutura do Projeto
 
 ```
-decision-ai/
+Datathon_ML-FIAP-Grupo7-Decision/
 ├── 🚀 run_demo.py              # Demonstração em 1 comando
 ├── 🔍 check_environment.py     # Verificação do ambiente
 ├── 📋 QUICK_START.md           # Instruções rápidas

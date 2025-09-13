@@ -33,7 +33,7 @@ Pipeline completa de machine learning que analisa candidatos e vagas para:
 ## Estrutura do Projeto
 
 ```
-decision-ai/
+Datathon_ML-FIAP-Grupo7-Decision/
 ├── data/                   # Dados de entrada
 ├── src/                    # Código fonte
 │   ├── data/              # Processamento de dados
