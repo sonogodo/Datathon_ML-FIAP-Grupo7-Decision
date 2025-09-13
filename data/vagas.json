@@ -1,0 +1,49 @@
+{
+  "10976": {
+    "codigo_vaga": "10976",
+    "titulo": "Desenvolvedor Python Sênior",
+    "cliente": "TechCorp",
+    "is_sap": false,
+    "nivel_profissional": "Senior",
+    "nivel_ingles": "Intermediário",
+    "nivel_espanhol": "Básico",
+    "principais_atividades": "Desenvolvimento de APIs REST, integração com bancos de dados, code review",
+    "competencias_tecnicas": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Docker",
+      "AWS"
+    ],
+    "beneficios": [
+      "Vale refeição",
+      "Plano de saúde",
+      "Home office"
+    ],
+    "localizacao": "São Paulo - SP",
+    "salario_range": "12000-18000"
+  },
+  "10977": {
+    "codigo_vaga": "10977",
+    "titulo": "Analista SAP ABAP",
+    "cliente": "Enterprise Solutions",
+    "is_sap": true,
+    "nivel_profissional": "Pleno",
+    "nivel_ingles": "Avançado",
+    "nivel_espanhol": "Não requerido",
+    "principais_atividades": "Desenvolvimento ABAP, customizações SAP, suporte funcional",
+    "competencias_tecnicas": [
+      "SAP ABAP",
+      "SAP ECC",
+      "SAP S/4HANA",
+      "SQL"
+    ],
+    "beneficios": [
+      "Vale refeição",
+      "Plano de saúde",
+      "Participação nos lucros"
+    ],
+    "localizacao": "Rio de Janeiro - RJ",
+    "salario_range": "8000-12000"
+  }
+}

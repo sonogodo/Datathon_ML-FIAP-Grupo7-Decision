@@ -1,0 +1,30 @@
+{
+  "10976": [
+    {
+      "codigo_candidato": "41496",
+      "nome_candidato": "Sr. Thales Freitas",
+      "comentario": "Candidato com excelente fit técnico, aprovado em todas as etapas",
+      "situacao": "Contratado"
+    },
+    {
+      "codigo_candidato": "41497",
+      "nome_candidato": "Sra. Ana Costa",
+      "comentario": "Perfil não adequado para Python, mais focada em SAP",
+      "situacao": "Rejeitado"
+    }
+  ],
+  "10977": [
+    {
+      "codigo_candidato": "41497",
+      "nome_candidato": "Sra. Ana Costa",
+      "comentario": "Perfil adequado para a vaga SAP, contratada",
+      "situacao": "Contratado"
+    },
+    {
+      "codigo_candidato": "41496",
+      "nome_candidato": "Sr. Thales Freitas",
+      "comentario": "Não tem experiência em SAP",
+      "situacao": "Rejeitado"
+    }
+  ]
+}

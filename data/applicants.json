@@ -1,0 +1,41 @@
+{
+  "41496": {
+    "codigo_candidato": "41496",
+    "nome": "Sr. Thales Freitas",
+    "nivel_academico": "Superior Completo",
+    "nivel_ingles": "Intermediário",
+    "nivel_espanhol": "Básico",
+    "conhecimentos_tecnicos": [
+      "Python",
+      "Django",
+      "Flask",
+      "PostgreSQL",
+      "Docker",
+      "Git"
+    ],
+    "area_atuacao": "Desenvolvimento de Software",
+    "anos_experiencia": 6,
+    "localizacao": "São Paulo - SP",
+    "pretensao_salarial": "15000",
+    "cv_resumo": "Desenvolvedor Python com 6 anos de experiência em desenvolvimento web..."
+  },
+  "41497": {
+    "codigo_candidato": "41497",
+    "nome": "Sra. Ana Costa",
+    "nivel_academico": "Superior Completo",
+    "nivel_ingles": "Avançado",
+    "nivel_espanhol": "Não possui",
+    "conhecimentos_tecnicos": [
+      "SAP ABAP",
+      "SAP ECC",
+      "SAP S/4HANA",
+      "SQL Server",
+      "Oracle"
+    ],
+    "area_atuacao": "Consultoria SAP",
+    "anos_experiencia": 4,
+    "localizacao": "Rio de Janeiro - RJ",
+    "pretensao_salarial": "10000",
+    "cv_resumo": "Consultora SAP ABAP com 4 anos de experiência em projetos de implementação..."
+  }
+}
