@@ -4,11 +4,11 @@
 
 ```bash
 git clone <SEU_REPOSITORIO_GITHUB>
-cd Datathon_ML-FIAP-Grupo7-Decision
+cd decision-ai
 python run_demo.py
 ```
 
-**Isso é tudo!** O script fará automaticamente:
+**Isso é tudo!** O script fará automaticamente:Kiro
 - ✅ Verificação do ambiente
 - ✅ Instalação de dependências  
 - ✅ Validação dos dados
