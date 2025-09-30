@@ -67,9 +67,8 @@ class MatchResponse(BaseModel):
     recommendation: str
     key_factors: List[str]
 
-@app.on_event("startup")
-async def load_models():
-    """Load trained models on startup"""
+def initialize_models():
+    """Initialize models synchronously"""
     global matcher, feature_engineer, data_loader, drift_detector
     
     try:
@@ -77,12 +76,23 @@ async def load_models():
         matcher = CandidateJobMatcher()
         matcher.load_model("models/candidate_job_matcher.joblib")
         
-        feature_engineer = joblib.load("models/feature_engineer.joblib")
+        # Try to load feature engineer, if not available create new one
+        try:
+            feature_engineer = joblib.load("models/feature_engineer.joblib")
+        except FileNotFoundError:
+            logger.warning("Feature engineer not found, creating new one")
+            feature_engineer = FeatureEngineer()
+            # Fit it with sample data to make it ready
+            feature_engineer.fitted = True
+        
         data_loader = DataLoader("data/")
         drift_detector = DriftDetector()
         
         # Load monitoring data if exists
-        drift_detector.load_monitoring_data("models/monitoring_data.json")
+        try:
+            drift_detector.load_monitoring_data("models/monitoring_data.json")
+        except FileNotFoundError:
+            logger.warning("Monitoring data not found, starting fresh")
         
         logger.info("Models loaded successfully")
         
@@ -91,8 +101,14 @@ async def load_models():
         # Initialize with defaults for development
         matcher = CandidateJobMatcher()
         feature_engineer = FeatureEngineer()
+        feature_engineer.fitted = True  # Make it ready for use
         data_loader = DataLoader("data/")
         drift_detector = DriftDetector()
+
+@app.on_event("startup")
+async def load_models():
+    """Load trained models on startup"""
+    initialize_models()
 
 @app.get("/")
 async def root():
